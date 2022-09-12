@@ -47,3 +47,9 @@ values (1, 1), (2, 1), (3, 1), (4, 1), (1, 2), (13, 2), (14, 2),
 	
 insert into tracks (album_id, track_name, duration)
 values (4, 'My valentine', '250'), (6, 'Oh my God', '225')
+
+insert into musicians_genres (musician_id, genre_id)
+values (5, 5)
+
+insert into musicians_genres (musician_id, genre_id)
+values (5, 3)
